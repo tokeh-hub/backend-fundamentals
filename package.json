@@ -1,8 +1,10 @@
-{
+{   
+	"author": "aishakhan",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
+	"description": "A boilerplate for learning how to use npm and package.json",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -10,5 +12,12 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^25.0.7",
+		"nodemon": "^3.1.11",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
 	}
 }
